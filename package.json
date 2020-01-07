@@ -1,6 +1,6 @@
 {
   "name": "@jurajkavka/vue-hamburger-button",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hamburger button for the Vue apps.",
   "author": "Juraj Kavka <jurajkavka@gmail.com>",
   "license": "MIT",
