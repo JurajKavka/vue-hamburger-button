@@ -26,7 +26,7 @@ This is very simple example of using `HamburgerButton`. Please inspect source co
 
 > **NOTE**: Even the `default-theme` has to be imported manually.
 
-```
+```html
 <template>
   <div id="app">
     <HamburgerButton
