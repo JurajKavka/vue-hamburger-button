@@ -85,7 +85,8 @@ default-theme to new file and customize size of the button, thickness of the bar
   - `onClick(isInHamburgerState)`: event on mouse click, with argument, if the button is in *hamburger* or in *cross* state.
   
 ### Component customization
-See the example app how to customize, but basically, it is about to have one *root* class, that will be passed to `theme` parameter. 
+See the example app how to customize styles, but basically, it is about to have one *root* class, that will be passed to `theme` parameter of component. For example, you can copy whole [src/scss/default-theme.scss](src/scss/default-theme.scss) to a new file, rename *root* class `.default-theme` and make needed customization there. But **do not** change the names of the subclasses!
+For another example, check [src/scss/big-red-hamburger.scss](/src/scss/big-red-hamburger.scss) file.
 
 > **NOTE:** If You change *height* (thickness) of the bars, animation will not play very well. You will need to customize `translate` attribute of the `transform` property. I don't have exact recepie, how to set those values. I'm doing it just simple with *try and error* method and it works well.
 
