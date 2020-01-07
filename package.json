@@ -1,5 +1,5 @@
 {
-  "name": "vue-hamburger-button",
+  "name": "@jurajkavka/vue-hamburger-button",
   "version": "1.0.0",
   "description": "Hamburger button for the Vue apps.",
   "author": "Juraj Kavka <jurajkavka@gmail.com>",
@@ -16,6 +16,21 @@
     "src/**/*.scss",
     "src/**/*.vue",
     "!src/serve-dev.*"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vue",
+    "vue-component",
+    "vue-hamburger-button",
+    "hamburger-button",
+    "hamburger-menu",
+    "hamburger",
+    "vue-sidebar",
+    "vue-sidebar-menu",
+    "sidebar",
+    "sidebar-menu"
   ],
   "scripts": {
     "serve": "vue-cli-service serve src/serve-dev.js",
