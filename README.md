@@ -5,7 +5,7 @@ Don't take this component too seriously. It is just a [hamburger button](https:/
 If You want to see button in action, check the mentioned W3C tutorial, or install this project locally. It's as simple as to run these commands:
 
 ```
-git clone ...
+git clone https://github.com/JurajKavka/vue-hamburger-button.git
 ``` 
 
 ```
@@ -18,7 +18,7 @@ npm run serve
 ## Installation and usage
 You can install this component from [npm](https://www.npmjs.com/) with `npm` or `yarn`.
 ```
-npm install <name>
+npm install @jurajkavka/vue-hamburger-button
 ```
 
 ### Example app
