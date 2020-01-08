@@ -1,5 +1,5 @@
 # :hamburger: vue-hamburger-button :hamburger:
-Don't take this component too seriously. It is just a [hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) taken from W3C article [How TO - Menu Icon](https://www.w3schools.com/howto/howto_css_menu_icon.asp). This is the animated version.
+Yes, it is just the [hamburger button](https://en.wikipedia.org/wiki/Hamburger_button), taken from W3C article [How TO - Menu Icon](https://www.w3schools.com/howto/howto_css_menu_icon.asp). This is its animated version.
 
 ## Preview
 If You want to see button in action, check the mentioned W3C tutorial, or install this project locally. It's as simple as to run these commands:
@@ -16,7 +16,7 @@ npm install
 npm run serve
 ```
 
-There are another commands for developers (please inspect [package.json](package.json)):
+There are another commands for developers (please, inspect [package.json](package.json) too):
 ```
 npm run lint
 npm run test
@@ -28,9 +28,13 @@ You can install this component from [npm](https://www.npmjs.com/) with `npm` or 
 ```
 npm install @jurajkavka/vue-hamburger-button
 ```
+or
+```
+yarn add @jurajkavka/vue-hamburger-button
+```
 
 ### Example app
-This is very simple example of using `HamburgerButton`. Please inspect source code of the component and styles, to see its `props`, how to styles are composed and how they can be customized.
+This is very simple example of using `HamburgerButton`. Please, inspect the source code of the component and styles, to see its `props`, how to styles are composed and how they can be customized.
 
 > **NOTE**: Even the `default-theme` has to be imported manually.
 
