@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="[ theme, { 'change': !isInHamburgerState }]"
+    :class="[ theme, { 'cross': !isInHamburgerState }]"
     @click="onClick"
   >
     <div class="bar1" />

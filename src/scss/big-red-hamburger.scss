@@ -11,20 +11,20 @@
     transition: 0.4s;
   }
 
-  &.change {
+  &.cross {
     .bar1 {
       -webkit-transform: rotate(-45deg) translate(-7px, 6px);
       transform: rotate(-45deg) translate(-10px, 10px);
     }
   }
   
-  &.change {
+  &.cross {
     .bar2 {
       opacity: 0;
     }
   }
 
-  &.change {
+  &.cross {
     .bar3 {
       -webkit-transform: rotate(45deg) translate(-6px, -6px);
       transform: rotate(45deg) translate(-10px, -9px);

@@ -38,10 +38,11 @@
     "build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
     "build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
-    "test": "echo \"No test specified\"",
     "lint:script": "eslint --ext .vue,.js src/",
     "lint:style": "stylelint  \"src/(**)*.{scss,vue}\"",
-    "lint": "npm run lint:script; npm run lint:style"
+    "lint": "npm run lint:script; npm run lint:style",
+    "test:unit": "vue-cli-service test:unit",
+    "test": "npm run test:unit"
   },
   "dependencies": {},
   "devDependencies": {
@@ -52,10 +53,14 @@
     "@rollup/plugin-alias": "^2.2.0",
     "@rollup/plugin-replace": "^2.2.1",
     "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-unit-jest": "^4.1.2",
     "@vue/cli-service": "^4.1.0",
+    "@vue/test-utils": "^1.0.0-beta.30",
+    "babel-jest": "^24.9.0",
     "cross-env": "^6.0.3",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.1.2",
+    "jest": "^24.9.0",
     "minimist": "^1.2.0",
     "node-sass": "^4.13.0",
     "rollup": "^1.27.13",
@@ -65,6 +70,7 @@
     "rollup-plugin-vue": "5.1.1",
     "sass-loader": "^8.0.0",
     "vue": "^2.6.10",
+    "vue-jest": "^3.0.5",
     "vue-template-compiler": "^2.6.10"
   },
   "peerDependencies": {
@@ -72,5 +78,19 @@
   },
   "engines": {
     "node": ">=8"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    },
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
   }
 }
