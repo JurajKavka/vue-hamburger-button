@@ -15,6 +15,14 @@ npm install
 ```
 npm run serve
 ```
+
+There are another commands for developers (please inspect [package.json](package.json)):
+```
+npm run lint
+npm run test
+npm run build
+```
+
 ## Installation and usage
 You can install this component from [npm](https://www.npmjs.com/) with `npm` or `yarn`.
 ```
@@ -92,5 +100,4 @@ For another example, check [src/scss/big-red-hamburger.scss](/src/scss/big-red-h
 
 
 ## TODO
-  - write tests
   - technically this is a clickable `div` and no `button`.  I'm not very happy with it.
