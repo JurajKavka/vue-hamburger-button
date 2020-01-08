@@ -1,4 +1,4 @@
-# vue-hamburger-button
+# :hamburger: vue-hamburger-button :hamburger:
 Don't take this component too seriously. It is just a [hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) taken from W3C article [How TO - Menu Icon](https://www.w3schools.com/howto/howto_css_menu_icon.asp). This is the animated version.
 
 ## Preview
