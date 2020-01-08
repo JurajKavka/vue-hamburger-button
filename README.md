@@ -7,7 +7,9 @@ If You want to see button in action, check the mentioned W3C tutorial, or instal
 ```
 git clone https://github.com/JurajKavka/vue-hamburger-button.git
 ``` 
-
+```
+cd vue-hamburger-button
+```
 ```
 npm install
 ```
