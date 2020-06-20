@@ -5,12 +5,6 @@ import HamburgerButton from '@/hamburger-button.vue'
 
 describe('HamburgerButton', () => {
 
-  test('is a Vue instance', () => {
-    const wrapper = mount(HamburgerButton)
-    expect(wrapper.isVueInstance()).toBeTruthy()
-  })
-
-  // test default values of props
   it('should have defined theme prop', () => {
     expect(HamburgerButton.props.theme).toBeDefined()
   })
